@@ -1,8 +1,5 @@
-# This is my pet project was created on React with Redux toolkit  
-Main purpose of this project is showing news and update them
-
-On this project from other simple libraries I use libraries like react-markdown to easy updating your posts
-And very understandable Redux branch
+# This is my pet project was created on Express.js with Mongodb 
+**Main purpose of this project is support frontend and provide json**
 
 # Near future backend will connect to heroku after that you could easily connect to it.
 **However, how please go step-by-step instruction bellow this line**
@@ -15,12 +12,14 @@ Instruction to connect with backend:
 # How to run this project ?
  
 First of all please run `npm install` or `npm i` to install all packages
-After `npm start ` or `yarn start` to run this project
+After `npm serve ` to run this project
 
 -----------------------------------------------------------------------------------------------------------------
-# This project helpful for beginner frontend developers.
-Because on this project I show to how upload files correctly 
-and more details about axios library and other libraries
+# This project helpful for backend and frontend developers.
+Because on this project I use tools like:
+1. bcrypt, jsonwebtoken - to encrypt data to be secure from other users.
+2. nodemon - for updating your project after every saving your file.
+3. multer - this library helps save images which uploaded by url on your project to get access to it.
 
 -----------------------------------------------------------------------------------------------------------------
 # On the end of this post I want to say that
