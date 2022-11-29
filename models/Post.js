@@ -21,8 +21,10 @@ const PostSchema = new mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: 'User',
     },
-
-        imageURL: String
+        imageURL: {
+            type: String,
+            default: ''
+        }
 },{
     timestamps: true,
 }
